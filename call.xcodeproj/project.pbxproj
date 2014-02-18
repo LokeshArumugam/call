@@ -21,6 +21,8 @@
 		634FAD6218B24AE1001D1435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634FAD4418B24AE1001D1435 /* UIKit.framework */; };
 		634FAD6A18B24AE1001D1435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 634FAD6818B24AE1001D1435 /* InfoPlist.strings */; };
 		634FAD6C18B24AE1001D1435 /* callTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634FAD6B18B24AE1001D1435 /* callTests.m */; };
+		634FAD7618B24E27001D1435 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634FAD7518B24E27001D1435 /* Accounts.framework */; };
+		634FAD7818B24E2D001D1435 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634FAD7718B24E2D001D1435 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		634FAD6718B24AE1001D1435 /* callTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "callTests-Info.plist"; sourceTree = "<group>"; };
 		634FAD6918B24AE1001D1435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		634FAD6B18B24AE1001D1435 /* callTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = callTests.m; sourceTree = "<group>"; };
+		634FAD7518B24E27001D1435 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		634FAD7718B24E2D001D1435 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634FAD7818B24E2D001D1435 /* Twitter.framework in Frameworks */,
+				634FAD7618B24E27001D1435 /* Accounts.framework in Frameworks */,
 				634FAD4318B24AE1001D1435 /* CoreGraphics.framework in Frameworks */,
 				634FAD4518B24AE1001D1435 /* UIKit.framework in Frameworks */,
 				634FAD4118B24AE1001D1435 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		634FAD3F18B24AE1001D1435 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				634FAD7718B24E2D001D1435 /* Twitter.framework */,
+				634FAD7518B24E27001D1435 /* Accounts.framework */,
 				634FAD4018B24AE1001D1435 /* Foundation.framework */,
 				634FAD4218B24AE1001D1435 /* CoreGraphics.framework */,
 				634FAD4418B24AE1001D1435 /* UIKit.framework */,
@@ -460,6 +468,7 @@
 				634FAD7118B24AE1001D1435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634FAD7218B24AE1001D1435 /* Build configuration list for PBXNativeTarget "callTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				634FAD7418B24AE1001D1435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
